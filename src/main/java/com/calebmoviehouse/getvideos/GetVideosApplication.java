@@ -4,6 +4,8 @@ import com.calebmoviehouse.getvideos.health.IsAliveCheck;
 import com.calebmoviehouse.getvideos.resources.GetMockVideos;
 import com.calebmoviehouse.getvideos.resources.PingService;
 import io.dropwizard.Application;
+import io.dropwizard.configuration.EnvironmentVariableSubstitutor;
+import io.dropwizard.configuration.SubstitutingSourceProvider;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 
@@ -20,7 +22,11 @@ public class GetVideosApplication extends Application<GetVideosConfiguration> {
 
     @Override
     public void initialize(final Bootstrap<GetVideosConfiguration> bootstrap) {
-        // TODO: application initialization
+        bootstrap.setConfigurationSourceProvider(
+                new SubstitutingSourceProvider(bootstrap.getConfigurationSourceProvider(),
+                        new EnvironmentVariableSubstitutor(false)
+                )
+        );
     }
 
     @Override
