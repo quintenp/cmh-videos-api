@@ -36,6 +36,6 @@ public class GetMockVideos {
     @Path("/videosTest")
     @Produces(MediaType.APPLICATION_JSON)
     public String getVideoListTest(){
-        return youtubeClient.TestResult();
+        return youtubeClient.GetTopFiveVideos();
     }
 }
