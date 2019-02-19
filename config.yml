@@ -1,8 +1,0 @@
-logging:
-  level: INFO
-  loggers:
-    com.calebmoviehouse.getvideos: DEBUG
-server:
-  applicationConnectors:
-    - type: http
-      port: !!int ${HTTP_PLATFORM_PORT}

@@ -1,5 +1,7 @@
 package com.calebmoviehouse.getvideos.resources;
 
+import com.calebmoviehouse.getvideos.api.YoutubeVideo;
+import com.calebmoviehouse.getvideos.client.YoutubeClient;
 import com.calebmoviehouse.getvideos.core.IVideoService;
 import com.calebmoviehouse.getvideos.core.MockVideoService;
 import com.calebmoviehouse.getvideos.api.Video;
@@ -14,16 +16,26 @@ import java.util.List;
 public class GetMockVideos {
 
     private IVideoService mockVideoService;
+    private YoutubeClient youtubeClient;
 
     public GetMockVideos(){
         mockVideoService = new MockVideoService();
+        youtubeClient = new YoutubeClient();
     }
 
     @GET
     @Timed
-    @Path("/getvideos")
+    @Path("/videos")
     @Produces(MediaType.APPLICATION_JSON)
     public List<Video> getVideoList(){
         return mockVideoService.getVideos();
+    }
+
+    @GET
+    @Timed
+    @Path("/videosTest")
+    @Produces(MediaType.APPLICATION_JSON)
+    public String getVideoListTest(){
+        return youtubeClient.TestResult();
     }
 }
