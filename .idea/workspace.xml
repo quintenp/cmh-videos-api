@@ -2,16 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62e8367a-a3f6-4554-94d7-5d7c5e45dfb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/resources/Youtube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/GetVideosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/GetVideosApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/api/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/api/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/api/YoutubeVideo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/api/mapper/IYoutubeVideoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/api/mapper/IYoutubeVideoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/api/mapper/YoutubeVideoJsonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/api/mapper/YoutubeVideoJsonMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/client/YoutubeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/client/YoutubeClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/core/MockVideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/core/MockVideoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/resources/GetMockVideos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/resources/GetMockVideos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/GetVideosApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/GetVideosApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/GetVideosConfiguration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/GetVideosConfiguration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/api/Video.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/api/Video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/api/class-use/Video.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/api/class-use/Video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/api/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/api/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/api/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/api/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/api/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/api/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/api/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/api/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/class-use/GetVideosApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/class-use/GetVideosApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/class-use/GetVideosConfiguration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/class-use/GetVideosConfiguration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/core/IVideoService.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/core/IVideoService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/core/MockVideoService.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/core/MockVideoService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/core/class-use/IVideoService.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/core/class-use/IVideoService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/core/class-use/MockVideoService.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/core/class-use/MockVideoService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/core/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/core/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/core/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/core/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/core/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/core/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/core/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/core/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/health/IsAliveCheck.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/health/IsAliveCheck.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/health/class-use/IsAliveCheck.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/health/class-use/IsAliveCheck.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/health/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/health/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/health/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/health/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/health/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/health/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/health/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/health/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/resources/GetMockVideos.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/resources/GetMockVideos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/resources/PingService.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/resources/PingService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/resources/class-use/GetMockVideos.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/resources/class-use/GetMockVideos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/resources/class-use/PingService.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/resources/class-use/PingService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/resources/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/resources/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/resources/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/resources/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/resources/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/resources/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/resources/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/calebmoviehouse/getvideos/resources/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/package-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/getvideos-1.0-SNAPSHOT-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/getvideos-1.0-SNAPSHOT-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/getvideos-1.0-SNAPSHOT-shaded.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/getvideos-1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/getvideos-1.0-SNAPSHOT-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/getvideos-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/getvideos-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-getvideos-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-getvideos-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/web.config" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,11 +69,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/client/YoutubeClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+            <state relative-caret-position="425">
+              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,11 +81,38 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.prod.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/GetVideosApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/resources/Youtube.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="289">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="e#734#735#0" expanded="true" />
                 <element signature="e#803#804#0" expanded="true" />
@@ -51,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/resources/GetMockVideos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="187">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/core/MockVideoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="204">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,7 +166,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/client/MockVideoService.java" />
         <option value="$PROJECT_DIR$/config.yml" />
         <option value="$PROJECT_DIR$/config.dev.yml" />
-        <option value="$PROJECT_DIR$/web.config" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/api/YoutubeSearchResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/api/YoutubeVideo.java" />
@@ -106,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/core/MockVideoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/resources/Youtube.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/client/YoutubeClient.java" />
+        <option value="$PROJECT_DIR$/web.config" />
       </list>
     </option>
   </component>
@@ -117,8 +190,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-1928" />
+    <option name="y" value="420" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -128,8 +201,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,63 +208,21 @@
               <item name="cmh-videos-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="cmh-videos-api" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cmh-videos-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmh-videos-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cmh-videos-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmh-videos-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cmh-videos-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmh-videos-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cmh-videos-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmh-videos-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="getvideos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cmh-videos-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmh-videos-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="getvideos" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cmh-videos-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmh-videos-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="getvideos" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550664112725" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550680540025" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -216,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.getvideos">
+  <component name="RunManager" selected="Azure Web App.Azure Web App: cmh-videos-api:getvideos">
     <configuration name="getvideos" type="Application" factoryName="Application">
       <envs>
         <env name="YoutubeKey" value="AIzaSyD85NgPxQCxpeBBCWcgYzsIge71KG6dy3Q" />
@@ -224,8 +253,39 @@
       <option name="MAIN_CLASS_NAME" value="com.calebmoviehouse.getvideos.GetVideosApplication" />
       <module name="getvideos" />
       <option name="PROGRAM_PARAMETERS" value="server config.dev.yml" />
+      <shortenClasspath name="MANIFEST" />
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Azure Web App: cmh-videos-api:getvideos" type="com.microsoft.intellij.run.configuration.WebAppConfigurationType" factoryName="Azure Web App">
+      <option name="OS" value="windows" />
+      <option name="appServicePlanId" value="/subscriptions/48e7f4d8-7d99-47ac-9c0e-a3a4deee3e49/resourceGroups/calebmoviehouse/providers/Microsoft.Web/serverfarms/ServicePlan0f07e31e-8ce0" />
+      <option name="appServicePlanName" value="" />
+      <option name="creatingAppServicePlan" value="false" />
+      <option name="creatingNew" value="false" />
+      <option name="creatingResGrp" value="false" />
+      <option name="deployToRoot" value="false" />
+      <option name="deployToSlot" value="false" />
+      <option name="jdkVersion">
+        <JavaVersion />
+      </option>
+      <option name="newSlotConfigurationSource" />
+      <option name="newSlotName" />
+      <option name="pricing" value="" />
+      <option name="region" value="" />
+      <option name="resourceGroup" value="" />
+      <option name="slotName" />
+      <option name="stack" value="TOMCAT" />
+      <option name="subscriptionId" value="48e7f4d8-7d99-47ac-9c0e-a3a4deee3e49" />
+      <option name="targetName" value="getvideos-1.0-SNAPSHOT.jar" />
+      <option name="targetPath" value="C:\Users\quinten_pohl\Documents\cmh-videos-api\target\getvideos-1.0-SNAPSHOT.jar" />
+      <option name="version" value="8.5-jre8" />
+      <option name="webAppId" value="/subscriptions/48e7f4d8-7d99-47ac-9c0e-a3a4deee3e49/resourceGroups/cmh-videos/providers/Microsoft.Web/sites/cmh-videos" />
+      <option name="webAppName" value="" />
+      <option name="webContainer" value="tomcat 8.5" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/../cmh-videos-api\pom.xml" goal="package" />
       </method>
     </configuration>
     <configuration name="Azure Web App: getvideos:getvideos" type="com.microsoft.intellij.run.configuration.WebAppConfigurationType" factoryName="Azure Web App">
@@ -261,6 +321,7 @@
     <list>
       <item itemvalue="Application.getvideos" />
       <item itemvalue="Azure Web App.Azure Web App: getvideos:getvideos" />
+      <item itemvalue="Azure Web App.Azure Web App: cmh-videos-api:getvideos" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -278,9 +339,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="420" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26972282" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28464818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -291,7 +351,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.24160346" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24160346" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -367,20 +427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="25" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -596,13 +642,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/api/YoutubeVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/api/YoutubeVideo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/api/Video.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -614,13 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/GetVideosApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
@@ -645,30 +678,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/core/MockVideoService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/client/YoutubeClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="425">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/resources/GetMockVideos.java">
+    <entry file="file://$PROJECT_DIR$/config.prod.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/GetVideosApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/resources/Youtube.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="289">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#734#735#0" expanded="true" />
             <element signature="e#803#804#0" expanded="true" />
@@ -676,13 +713,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/client/YoutubeClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/resources/GetMockVideos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+        <state relative-caret-position="187">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/calebmoviehouse/getvideos/core/MockVideoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -692,10 +746,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>getvideos:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

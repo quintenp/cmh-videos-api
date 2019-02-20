@@ -1,5 +1,7 @@
 com.calebmoviehouse.getvideos
 com.calebmoviehouse.getvideos.api
+com.calebmoviehouse.getvideos.api.mapper
+com.calebmoviehouse.getvideos.client
 com.calebmoviehouse.getvideos.core
 com.calebmoviehouse.getvideos.health
 com.calebmoviehouse.getvideos.resources
