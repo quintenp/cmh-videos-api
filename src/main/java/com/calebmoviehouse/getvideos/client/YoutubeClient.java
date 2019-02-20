@@ -1,8 +1,9 @@
 package com.calebmoviehouse.getvideos.client;
 
-import com.calebmoviehouse.getvideos.api.YoutubeVideo;
+import com.calebmoviehouse.getvideos.api.Video;
 import com.calebmoviehouse.getvideos.api.mapper.IYoutubeVideoMapper;
 import com.calebmoviehouse.getvideos.api.mapper.YoutubeVideoJsonMapper;
+
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.core.MediaType;
@@ -12,24 +13,28 @@ public class YoutubeClient {
     private Client client;
     private IYoutubeVideoMapper videoMapper;
 
+    private static final String youtubeKey = System.getenv("YoutubeKey");
+    private static final String referer = "cmh-api";
+    private static final String part = "snippet";
+
     public YoutubeClient() {
         client = ClientBuilder.newClient();
         videoMapper = new YoutubeVideoJsonMapper();
     }
 
-    public String GetTopFiveVideos() {
-        String json = client.target("https://www.googleapis.com")
+    public String GetTopFiveVideos(int maxResults, String query) {
+        String resultingJson = client.target("https://www.googleapis.com")
                 .path("youtube").path("v3").path("search")
-                .queryParam("maxResults", "5")
-                .queryParam("part", "snippet")
-                .queryParam("q", "baby shows")
-                .queryParam("key", "AIzaSyD85NgPxQCxpeBBCWcgYzsIge71KG6dy3Q") //move to env var
+                .queryParam("maxResults", maxResults)
+                .queryParam("part", part)
+                .queryParam("q", query)
+                .queryParam("key", youtubeKey) //move to env var
                 .request(MediaType.APPLICATION_JSON)
-                .header("referer", "cmh-api")
+                .header("referer", referer)
                 .get(String.class);
 
-        List<YoutubeVideo> videoList = videoMapper.map(json);
+        List<Video> videoList = videoMapper.map(resultingJson);
 
-        return json;
+        return resultingJson;
     }
 }

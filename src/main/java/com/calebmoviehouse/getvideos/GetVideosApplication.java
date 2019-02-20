@@ -3,6 +3,7 @@ package com.calebmoviehouse.getvideos;
 import com.calebmoviehouse.getvideos.health.IsAliveCheck;
 import com.calebmoviehouse.getvideos.resources.GetMockVideos;
 import com.calebmoviehouse.getvideos.resources.PingService;
+import com.calebmoviehouse.getvideos.resources.Youtube;
 import io.dropwizard.Application;
 import io.dropwizard.configuration.EnvironmentVariableSubstitutor;
 import io.dropwizard.configuration.SubstitutingSourceProvider;
@@ -35,6 +36,7 @@ public class GetVideosApplication extends Application<GetVideosConfiguration> {
 
         environment.jersey().register(new PingService());
         environment.jersey().register(new GetMockVideos());
+        environment.jersey().register(new Youtube());
 
         environment.healthChecks().register("IsAlive",new IsAliveCheck());
     }

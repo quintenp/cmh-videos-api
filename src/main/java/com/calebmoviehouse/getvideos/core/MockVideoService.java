@@ -9,7 +9,7 @@ import java.util.List;
 public class MockVideoService implements IVideoService {
     public List<Video> getVideos() {
         return Arrays.asList(
-                new Video(1, "https://www.youtube.com/watch?v=nbRyOD9trfE"),
-                new Video(2, "https://www.youtube.com/watch?v=c-zBnUnyYhM"));
+                new Video(1, "https://www.youtube.com/watch?v=nbRyOD9trfE","Peppa Pig","Peppa pig video"),
+                new Video(2, "https://www.youtube.com/watch?v=c-zBnUnyYhM","Ben and Holly","Ben and Holly video"));
     }
 }
