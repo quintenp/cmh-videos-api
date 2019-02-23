@@ -1,9 +1,7 @@
 package com.calebmoviehouse.getvideos.resources;
 
 import com.calebmoviehouse.getvideos.client.YoutubeClient;
-import com.calebmoviehouse.getvideos.core.IVideoService;
-import com.calebmoviehouse.getvideos.core.MockVideoService;
-import com.calebmoviehouse.getvideos.api.Video;
+import com.calebmoviehouse.getvideos.api.entity.Video;
 import com.codahale.metrics.annotation.Timed;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -24,7 +22,7 @@ public class Youtube {
     @Timed
     @Path("/popular")
     @Produces(MediaType.APPLICATION_JSON)
-    public String getTopFiveVideos(){
+    public List<Video> getTopFiveVideos(){
         return youtubeClient.GetTopFiveVideos(5,"Baby Shows");
     }
 }

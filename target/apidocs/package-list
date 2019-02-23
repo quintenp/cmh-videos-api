@@ -1,5 +1,5 @@
 com.calebmoviehouse.getvideos
-com.calebmoviehouse.getvideos.api
+com.calebmoviehouse.getvideos.api.entity
 com.calebmoviehouse.getvideos.api.mapper
 com.calebmoviehouse.getvideos.client
 com.calebmoviehouse.getvideos.core

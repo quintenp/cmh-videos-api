@@ -1,8 +1,8 @@
 package com.calebmoviehouse.getvideos.client;
 
-import com.calebmoviehouse.getvideos.api.Video;
-import com.calebmoviehouse.getvideos.api.mapper.IYoutubeVideoMapper;
-import com.calebmoviehouse.getvideos.api.mapper.YoutubeVideoJsonMapper;
+import com.calebmoviehouse.getvideos.api.entity.Video;
+import com.calebmoviehouse.getvideos.api.mapper.IVideoMapper;
+import com.calebmoviehouse.getvideos.api.mapper.VideoJsonMapper;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
@@ -11,7 +11,7 @@ import java.util.List;
 
 public class YoutubeClient {
     private Client client;
-    private IYoutubeVideoMapper videoMapper;
+    private IVideoMapper videoMapper;
 
     private static final String youtubeKey = System.getenv("YoutubeKey");
     private static final String referer = "cmh-api";
@@ -19,10 +19,10 @@ public class YoutubeClient {
 
     public YoutubeClient() {
         client = ClientBuilder.newClient();
-        videoMapper = new YoutubeVideoJsonMapper();
+        videoMapper = new VideoJsonMapper();
     }
 
-    public String GetTopFiveVideos(int maxResults, String query) {
+    public List<Video> GetTopFiveVideos(int maxResults, String query) {
         String resultingJson = client.target("https://www.googleapis.com")
                 .path("youtube").path("v3").path("search")
                 .queryParam("maxResults", maxResults)
@@ -35,6 +35,6 @@ public class YoutubeClient {
 
         List<Video> videoList = videoMapper.map(resultingJson);
 
-        return resultingJson;
+        return videoList;
     }
 }

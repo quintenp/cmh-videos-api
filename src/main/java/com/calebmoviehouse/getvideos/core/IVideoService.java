@@ -1,6 +1,6 @@
 package com.calebmoviehouse.getvideos.core;
 
-import com.calebmoviehouse.getvideos.api.Video;
+import com.calebmoviehouse.getvideos.api.entity.Video;
 
 import java.util.List;
 
